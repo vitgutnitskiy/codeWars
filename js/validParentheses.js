@@ -10,3 +10,6 @@ function validParentheses(parens) {
 
   return false;
 }
+function roundToFive(numbers) {
+  return numbers.map((a) => (a % 5 >= 2.5 ? a + (5 - (a % 5)) : a - (a % 5)));
+}
