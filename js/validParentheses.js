@@ -13,3 +13,8 @@ function validParentheses(parens) {
 function roundToFive(numbers) {
   return numbers.map((a) => (a % 5 >= 2.5 ? a + (5 - (a % 5)) : a - (a % 5)));
 }
+
+// Change code below this line
+const someAdjective = "someAdjective";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
